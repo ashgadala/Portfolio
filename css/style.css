@@ -1,0 +1,60 @@
+.oveflowed-div{
+    min-height: 100%;
+    width: 400%;
+    overflow-y: hidden;
+}
+
+.col-sm-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.block{
+    width: 25%;
+    height: 100%;
+}
+
+#block1{
+    background: white;
+}
+
+#block2{
+    background: aqua;
+}
+
+#block3{
+    background: pink;
+    overflow-y: auto;
+}
+
+#block4{
+    background: yellow;
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+    height: 0px;
+    background: #fefefe;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border:  solid 1.5px #fefefe;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #888787;
+}
+
+/*::-webkit-scrollbar-button {
+    color: #FFF;
+    background-image: url(http://www.pngmart.com/files/4/Triangle-PNG-Transparent.png);
+}
+
+::-webkit-scrollbar-button:end:increment {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/common-4/24/ui-12-512.png);
+}
+    
+::-webkit-scrollbar-button:start:decrement {
+    background-image: url(images/scroll_cntrl_up.png);
+}*/
