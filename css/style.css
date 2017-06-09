@@ -122,10 +122,6 @@ header {
   margin-left: 10px;
 }
 
-.nav-menu ul li {
-  
-}
-
 .nav-menu ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -194,19 +190,22 @@ header {
 .move-ahead {
   font-size: 16px;
   border: none;
-  background: #f1ca02;
+  background: #fff;
   margin-top: 30px;
   width: 190px;
   height: 40px;
   text-align: center;
-  color: #fff;
+  color: #e00000;
   display: inline-block;
   line-height: 42px;
   font-weight: 500;
+  font-weight: bold;
 }
 
 .move-ahead:hover {
-  background: #fff;
+  border: 2px solid #e00000;
+  outline: 2px solid #fff;
+  line-height: 35px;
   color: #e00000;
   text-decoration: none;
 }

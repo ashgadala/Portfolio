@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $('.quote').typeIt({
      strings: ["Hi, I am Aakriti.", "I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
-     speed: 1,
+     speed: 150,
      autoStart: true
   });
   }
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
    $('.quote').typeIt({
      strings: ["I believe a great design can make a good idea even better."],
-     speed: 1,
+     speed: 150,
      autoStart: true
   });
   }
