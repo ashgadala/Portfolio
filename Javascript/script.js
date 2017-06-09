@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  //$(window).resize(function(){location.reload();});
+  $(window).resize(function(){location.reload();});
 
   if ( $( window ).width() > 708 ){
     $('a').click(function() {
