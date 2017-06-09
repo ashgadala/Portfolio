@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $(window).resize(function(){location.reload();});
+  //$(window).resize(function(){location.reload();});
 
   if ( $( window ).width() > 708 ){
     $('a').click(function() {
@@ -16,6 +16,8 @@ $(document).ready(function() {
      speed: 150,
      autoStart: true
   });
+
+    $(".move-ahead").delay(22500).show("fade", 2000);
   }
 
   $('.nav-menu-bars').click(function(){
@@ -39,7 +41,9 @@ $(document).ready(function() {
      speed: 150,
      autoStart: true
   });
-  }
+
+  $(".move-ahead").delay(10000).show("fade", 2000);
+}
   
 });
 
