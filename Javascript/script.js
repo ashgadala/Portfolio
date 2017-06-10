@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   $(window).resize(function(){location.reload();});
 
+  $('.mobile-quote').hide();
+
   if ( $( window ).width() > 708 ){
     $('a').click(function() {
       $('a').removeClass('selected');
@@ -36,13 +38,13 @@ $(document).ready(function() {
      $('body').animate({ left: "0px"});
    });
 
-   $('.quote').typeIt({
-     strings: ["I believe a great design can make a good idea even better."],
+   $('.mobile-quote').show();
+   $('.mobile-quote').typeIt({
+     strings: ["Hi, I am Aakriti.", "I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
      speed: 150,
      autoStart: true
   });
-
-  $(".move-ahead").delay(10000).show("fade", 2000);
+  $(".move-ahead").delay(22500).show("fade", 2000);
 }
   
 });

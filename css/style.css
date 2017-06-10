@@ -322,3 +322,10 @@ header {
     margin-top: 6%;
   }
 }
+
+.mobile-quote {
+  color: #fff;
+  text-align: -webkit-center;
+  font-family: monospace;
+  font-size: 19px;
+}
