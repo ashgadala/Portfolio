@@ -40,7 +40,7 @@ $(document).ready(function() {
 
    $('.mobile-quote').show();
    $('.mobile-quote').typeIt({
-     strings: ["Hi, I am Aakriti.", "I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
+     strings: ["Hi, I am Aakriti. I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
      speed: 150,
      autoStart: true
   });
@@ -57,3 +57,9 @@ function menuClose() {
   $( ".nav-menu" ).hide();
   $('body').animate({ left: "0px"}, 200);
 }
+
+// function send() {
+//   setTimeout(function() {
+//     window.open("mailto:" + document.getElementById('email').value + "?name=" + document.getElementById('name').value + "&body=" + document.getElementById('message').value);
+//   }, 320);
+// }
