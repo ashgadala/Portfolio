@@ -57,9 +57,3 @@ function menuClose() {
   $( ".nav-menu" ).hide();
   $('body').animate({ left: "0px"}, 200);
 }
-
-// function send() {
-//   setTimeout(function() {
-//     window.open("mailto:" + document.getElementById('email').value + "?name=" + document.getElementById('name').value + "&body=" + document.getElementById('message').value);
-//   }, 320);
-// }

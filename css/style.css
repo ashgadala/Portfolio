@@ -40,6 +40,7 @@ ul li{
 
 #block2{
     background: #fff;
+    overflow-y: auto;
 }
 
 #block3{
@@ -218,12 +219,21 @@ header {
   font-weight: bold;
 }
 
-.move-ahead:hover {
+.move-ahead:hover, .move-ahead:focus {
   border: 2px solid #e00000;
   outline: 2px solid #fff;
   line-height: 35px;
   color: #e00000;
   text-decoration: none;
+}
+
+.move-ahead:active {
+  border: 2px solid #e00000;
+  outline: 2px solid #fff;
+  line-height: 35px;
+  color: #e00000;
+  text-decoration: none;
+  transform: translateY(2px);
 }
 
 .container-new {
@@ -283,8 +293,50 @@ header {
   margin-bottom: 12%;
 }
 
-.send-message:focus {
-  outline: none;
+.send-message:hover, .send-message:focus {
+  border: 2px solid #fff;
+  outline: 2px solid #e00000;
+}
+
+.send-message:active {
+  background-color: #e00000;
+  transform: translateY(2px);
+}
+
+.mobile-quote {
+  color: #fff;
+  text-align: -webkit-center;
+  font-family: monospace;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.row-new {
+  width: 80%;
+  margin: auto;
+}
+
+.profile-pic{
+  width: 107.5%;
+}
+
+.the-who {
+  color: #7F8C8D;
+  font-size: 9rem;
+  text-transform: uppercase;
+  /*margin-bottom: 3%;
+  margin-top: -16px;*/
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+.the-who-text {
+  color: #7f8c8d;
+  font-size: 106%;
+  line-height: 1.875;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-top: 8%;
 }
 
 @media (max-width: 710px) {
@@ -321,11 +373,9 @@ header {
   .text-box {
     margin-top: 6%;
   }
-}
 
-.mobile-quote {
-  color: #fff;
-  text-align: -webkit-center;
-  font-family: monospace;
-  font-size: 19px;
+  .the-who {
+    font-size: 4rem;
+    margin-top: 25%;
+  }
 }
