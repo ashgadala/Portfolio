@@ -506,6 +506,6 @@ header {
 }
 
 
-.nav-menu ul li a:active {
+.nav-menu ul li a:active, .nav-menu ul li a:visited  {
   opacity: 0.5;
 }
