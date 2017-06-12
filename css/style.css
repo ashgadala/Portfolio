@@ -505,7 +505,7 @@ header {
   }
 }
 
-
-.nav-menu ul li a:active, .nav-menu ul li a:visited  {
-  opacity: 0.5;
+.social-main:hover {
+    border: 3px solid rgba(225, 225, 225, 0.5);
+    color: rgba(225, 225, 225, 0.5);
 }
