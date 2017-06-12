@@ -356,7 +356,7 @@ header {
 }
 
 .work-image {
-  width: 475px;
+  width: 49%;
   height: 320px;
   background: #ccc;
 }
@@ -393,8 +393,7 @@ header {
 .work-button {
   color: #fff;
   display: inline-block;
-  width: 200px;
-  height: 45px;
+  padding: 0.5% 11%;
   background: #e00000;
   font-weight: 700;
   font-size: 19px;
@@ -460,6 +459,40 @@ header {
     margin-top: 25%;
   }
 
+  /*.work-image {
+    width: 100%;
+    height: 30%;
+    background: #ccc;
+  }
+
+  .work-heading {
+    font-size: 2.5rem;
+    margin-top: 8%;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  } 
+
+  .work-text {
+    width: 100%;
+  }
+
+  .work-container {
+    margin-top: 20%;
+  }
+
+  .mt {
+    margin-top: 10%
+  }*/
+}
+
+
+@media (max-width: 767px) {
   .work-image {
     width: 100%;
     height: 30%;
