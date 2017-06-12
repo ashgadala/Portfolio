@@ -46,6 +46,7 @@ ul li{
 #block3{
     background: #fff;
     overflow-y: scroll;
+    padding-bottom: 2%;
 }
 
 #block4{
@@ -339,6 +340,86 @@ header {
   margin-top: 8%;
 }
 
+.mt {
+  margin-top: 0;
+}
+
+.work-container {
+  width: 100%;
+  margin-top: 5%;
+  /*background: #555;*/
+}
+
+.work-row {
+  width: 74%;
+  margin: auto;
+}
+
+.work-image {
+  width: 475px;
+  height: 320px;
+  background: #ccc;
+}
+
+.work-heading {
+ color: #7f8c8d;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 3%;
+}
+
+.work-icons {
+  color: #e00000;
+  margin-top: 3%;
+}
+
+.work-tags {
+  text-transform: uppercase;
+  color: #e00000;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.work-text {
+  width: 43%;
+}
+
+.work-discription {
+  color: #7f8c8d;
+  margin-top: 3%;
+}
+
+.work-button {
+  color: #fff;
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  background: #e00000;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 48px;
+  margin-top: 3%;
+}
+
+.work-button:hover {
+  border: 2px solid #fff;
+  outline: 2px solid #e00000;
+  color: #fff;
+  text-decoration: none;
+  line-height: 44px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
 @media (max-width: 710px) {
   .nav-menu ul {
     margin-top: 20px;
@@ -377,5 +458,36 @@ header {
   .the-who {
     font-size: 4rem;
     margin-top: 25%;
+  }
+
+  .work-image {
+    width: 100%;
+    height: 30%;
+    background: #ccc;
+  }
+
+  .work-heading {
+    font-size: 2.5rem;
+    margin-top: 8%;
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .fr {
+    float: right;
+  } 
+
+  .work-text {
+    width: 100%;
+  }
+
+  .work-container {
+    margin-top: 20%;
+  }
+
+  .mt {
+    margin-top: 10%
   }
 }
