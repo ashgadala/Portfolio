@@ -15,11 +15,11 @@ $(document).ready(function() {
 
     $('.quote').typeIt({
      strings: ["Hi, I am Aakriti.", "I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
-     speed: 150,
+     speed: 80,
      autoStart: true
   });
 
-    $(".move-ahead").delay(22500).show("fade", 2000);
+    $(".move-ahead").delay(20000).show("fade", 2000);
   }
 
   $('.nav-menu-bars').click(function(){
@@ -41,10 +41,10 @@ $(document).ready(function() {
    $('.mobile-quote').show();
    $('.mobile-quote').typeIt({
      strings: ["Hi, I am Aakriti. I believe a great design can make a good idea even better.", "I create websites that have both:", "BEAUTY and BRAIN."],
-     speed: 150,
+     speed: 80,
      autoStart: true
   });
-  $(".move-ahead").delay(22500).show("fade", 2000);
+  $(".move-ahead").delay(10000).show("fade", 2000);
 }
   
 });
