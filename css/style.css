@@ -357,8 +357,11 @@ header {
 
 .work-image {
   width: 49%;
-  height: 320px;
-  background: #ccc;
+  min-height: 100px;
+}
+
+.demo {
+  width: 100%;
 }
 
 .work-heading {
@@ -388,6 +391,7 @@ header {
 .work-discription {
   color: #7f8c8d;
   margin-top: 3%;
+  font-size: 1.7rem;
 }
 
 .work-button {
@@ -405,6 +409,14 @@ header {
 
 .work-button:hover {
   border: 2px solid #fff;
+  outline: 2px solid #e00000;
+  color: #fff;
+  text-decoration: none;
+  line-height: 44px;
+}
+
+.work-button:focus {
+  border: 4px solid #fff;
   outline: 2px solid #e00000;
   color: #fff;
   text-decoration: none;
@@ -458,45 +470,13 @@ header {
     font-size: 4rem;
     margin-top: 25%;
   }
-
-  /*.work-image {
-    width: 100%;
-    height: 30%;
-    background: #ccc;
-  }
-
-  .work-heading {
-    font-size: 2.5rem;
-    margin-top: 8%;
-  }
-
-  .fl {
-    float: left;
-  }
-
-  .fr {
-    float: right;
-  } 
-
-  .work-text {
-    width: 100%;
-  }
-
-  .work-container {
-    margin-top: 20%;
-  }
-
-  .mt {
-    margin-top: 10%
-  }*/
 }
 
 
 @media (max-width: 767px) {
   .work-image {
     width: 100%;
-    height: 30%;
-    background: #ccc;
+    min-height: 50px;
   }
 
   .work-heading {
@@ -523,4 +503,9 @@ header {
   .mt {
     margin-top: 10%
   }
+}
+
+
+.nav-menu ul li a:active {
+  opacity: 0.5;
 }
